@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19574" systemVersion="21C52" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Investment" representedClassName="Investment" syncable="YES">
+        <attribute name="buyPrice" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="currencyCode" attributeType="String"/>
+        <attribute name="currencyName" attributeType="String"/>
+        <attribute name="dayChangePrice" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="exchangeCode" attributeType="String"/>
+        <attribute name="exchangeName" attributeType="String"/>
+        <attribute name="exchangeRate" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="lastRefreshed" optional="YES" attributeType="String"/>
+        <attribute name="periods" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="shares" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="Investment" positionX="-63" positionY="-9" width="128" height="194"/>
+    </elements>
+</model>
