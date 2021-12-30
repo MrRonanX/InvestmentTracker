@@ -1,6 +1,6 @@
 # InvestmentTracker
 
-The purpose of this app is to track personal crypto investments. It consists of 3 screens and each screen has 1 subscreen. Information is saved locally using CoreData and Network Requests are completed via newsapi.org and apidapi.com.
+The purpose of this app is to track personal crypto investments. It consists of 3 screens and each screen has 1 subscreen. Information is saved locally using CoreData and Network Requests are completed via newsapi.org and apidapi.com. Most views are created using MMVM design paters - it consists of the view itself and the view model for that view.
 
 The first screen is Overview Screen. It is built dynamically - if the user doesn't have active investments it prompts to switch to the next screen to add assets.
 Otherwise, it shows the details about the owned crypto. It includes basic information + a candlestick chart. At the top of the screen, there is a delete button to erase this asset.
