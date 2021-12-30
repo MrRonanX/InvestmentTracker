@@ -44,9 +44,6 @@
 		3471F8CE276DC4D50013E8C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3471F8CD276DC4D50013E8C3 /* Preview Assets.xcassets */; };
 		3471F8D0276DC4D50013E8C3 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3471F8CF276DC4D50013E8C3 /* Persistence.swift */; };
 		3471F8D3276DC4D50013E8C3 /* InvestmentTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3471F8D1276DC4D50013E8C3 /* InvestmentTracker.xcdatamodeld */; };
-		3471F8DD276DC4D60013E8C3 /* InvestmentTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3471F8DC276DC4D60013E8C3 /* InvestmentTrackerTests.swift */; };
-		3471F8E7276DC4D60013E8C3 /* InvestmentTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3471F8E6276DC4D60013E8C3 /* InvestmentTrackerUITests.swift */; };
-		3471F8E9276DC4D60013E8C3 /* InvestmentTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3471F8E8276DC4D60013E8C3 /* InvestmentTrackerUITestsLaunchTests.swift */; };
 		3471F8F7276DD1950013E8C3 /* InvestmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3471F8F6276DD1950013E8C3 /* InvestmentsView.swift */; };
 		3471F8F9276DD1E80013E8C3 /* NewInvestmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3471F8F8276DD1E80013E8C3 /* NewInvestmentView.swift */; };
 		3471F8FB276DD2080013E8C3 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3471F8FA276DD2080013E8C3 /* NewsView.swift */; };
@@ -56,23 +53,6 @@
 		34DE5EF727795933003763D1 /* EmptyInvestmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DE5EF627795933003763D1 /* EmptyInvestmentsView.swift */; };
 		34F957F5276F248700A30010 /* ArticleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F957F4276F248700A30010 /* ArticleModel.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		3471F8D9276DC4D60013E8C3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3471F8BB276DC4D40013E8C3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3471F8C2276DC4D40013E8C3;
-			remoteInfo = InvestmentTracker;
-		};
-		3471F8E3276DC4D60013E8C3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3471F8BB276DC4D40013E8C3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3471F8C2276DC4D40013E8C3;
-			remoteInfo = InvestmentTracker;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3420B666276F2EDD0061BE4E /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
@@ -114,11 +94,6 @@
 		3471F8CD276DC4D50013E8C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3471F8CF276DC4D50013E8C3 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		3471F8D2276DC4D50013E8C3 /* InvestmentTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InvestmentTracker.xcdatamodel; sourceTree = "<group>"; };
-		3471F8D8276DC4D60013E8C3 /* InvestmentTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InvestmentTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3471F8DC276DC4D60013E8C3 /* InvestmentTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestmentTrackerTests.swift; sourceTree = "<group>"; };
-		3471F8E2276DC4D60013E8C3 /* InvestmentTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InvestmentTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3471F8E6276DC4D60013E8C3 /* InvestmentTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestmentTrackerUITests.swift; sourceTree = "<group>"; };
-		3471F8E8276DC4D60013E8C3 /* InvestmentTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestmentTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3471F8F6276DD1950013E8C3 /* InvestmentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestmentsView.swift; sourceTree = "<group>"; };
 		3471F8F8276DD1E80013E8C3 /* NewInvestmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewInvestmentView.swift; sourceTree = "<group>"; };
 		3471F8FA276DD2080013E8C3 /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
@@ -131,20 +106,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		3471F8C0276DC4D40013E8C3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3471F8D5276DC4D60013E8C3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3471F8DF276DC4D60013E8C3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -261,8 +222,6 @@
 			isa = PBXGroup;
 			children = (
 				3471F8C5276DC4D40013E8C3 /* InvestmentTracker */,
-				3471F8DB276DC4D60013E8C3 /* InvestmentTrackerTests */,
-				3471F8E5276DC4D60013E8C3 /* InvestmentTrackerUITests */,
 				3471F8C4276DC4D40013E8C3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -271,8 +230,6 @@
 			isa = PBXGroup;
 			children = (
 				3471F8C3276DC4D40013E8C3 /* InvestmentTracker.app */,
-				3471F8D8276DC4D60013E8C3 /* InvestmentTrackerTests.xctest */,
-				3471F8E2276DC4D60013E8C3 /* InvestmentTrackerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -302,23 +259,6 @@
 				3471F8CD276DC4D50013E8C3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		3471F8DB276DC4D60013E8C3 /* InvestmentTrackerTests */ = {
-			isa = PBXGroup;
-			children = (
-				3471F8DC276DC4D60013E8C3 /* InvestmentTrackerTests.swift */,
-			);
-			path = InvestmentTrackerTests;
-			sourceTree = "<group>";
-		};
-		3471F8E5276DC4D60013E8C3 /* InvestmentTrackerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				3471F8E6276DC4D60013E8C3 /* InvestmentTrackerUITests.swift */,
-				3471F8E8276DC4D60013E8C3 /* InvestmentTrackerUITestsLaunchTests.swift */,
-			);
-			path = InvestmentTrackerUITests;
 			sourceTree = "<group>";
 		};
 		3471F8F5276DD17A0013E8C3 /* Screens */ = {
@@ -424,42 +364,6 @@
 			productReference = 3471F8C3276DC4D40013E8C3 /* InvestmentTracker.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3471F8D7276DC4D60013E8C3 /* InvestmentTrackerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3471F8EF276DC4D60013E8C3 /* Build configuration list for PBXNativeTarget "InvestmentTrackerTests" */;
-			buildPhases = (
-				3471F8D4276DC4D60013E8C3 /* Sources */,
-				3471F8D5276DC4D60013E8C3 /* Frameworks */,
-				3471F8D6276DC4D60013E8C3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3471F8DA276DC4D60013E8C3 /* PBXTargetDependency */,
-			);
-			name = InvestmentTrackerTests;
-			productName = InvestmentTrackerTests;
-			productReference = 3471F8D8276DC4D60013E8C3 /* InvestmentTrackerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		3471F8E1276DC4D60013E8C3 /* InvestmentTrackerUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3471F8F2276DC4D60013E8C3 /* Build configuration list for PBXNativeTarget "InvestmentTrackerUITests" */;
-			buildPhases = (
-				3471F8DE276DC4D60013E8C3 /* Sources */,
-				3471F8DF276DC4D60013E8C3 /* Frameworks */,
-				3471F8E0276DC4D60013E8C3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3471F8E4276DC4D60013E8C3 /* PBXTargetDependency */,
-			);
-			name = InvestmentTrackerUITests;
-			productName = InvestmentTrackerUITests;
-			productReference = 3471F8E2276DC4D60013E8C3 /* InvestmentTrackerUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -472,14 +376,6 @@
 				TargetAttributes = {
 					3471F8C2276DC4D40013E8C3 = {
 						CreatedOnToolsVersion = 13.2;
-					};
-					3471F8D7276DC4D60013E8C3 = {
-						CreatedOnToolsVersion = 13.2;
-						TestTargetID = 3471F8C2276DC4D40013E8C3;
-					};
-					3471F8E1276DC4D60013E8C3 = {
-						CreatedOnToolsVersion = 13.2;
-						TestTargetID = 3471F8C2276DC4D40013E8C3;
 					};
 				};
 			};
@@ -497,8 +393,6 @@
 			projectRoot = "";
 			targets = (
 				3471F8C2276DC4D40013E8C3 /* InvestmentTracker */,
-				3471F8D7276DC4D60013E8C3 /* InvestmentTrackerTests */,
-				3471F8E1276DC4D60013E8C3 /* InvestmentTrackerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -510,20 +404,6 @@
 			files = (
 				3471F8CE276DC4D50013E8C3 /* Preview Assets.xcassets in Resources */,
 				3471F8CB276DC4D50013E8C3 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3471F8D6276DC4D60013E8C3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3471F8E0276DC4D60013E8C3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,37 +460,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3471F8D4276DC4D60013E8C3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3471F8DD276DC4D60013E8C3 /* InvestmentTrackerTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3471F8DE276DC4D60013E8C3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3471F8E9276DC4D60013E8C3 /* InvestmentTrackerUITestsLaunchTests.swift in Sources */,
-				3471F8E7276DC4D60013E8C3 /* InvestmentTrackerUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		3471F8DA276DC4D60013E8C3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3471F8C2276DC4D40013E8C3 /* InvestmentTracker */;
-			targetProxy = 3471F8D9276DC4D60013E8C3 /* PBXContainerItemProxy */;
-		};
-		3471F8E4276DC4D60013E8C3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3471F8C2276DC4D40013E8C3 /* InvestmentTracker */;
-			targetProxy = 3471F8E3276DC4D60013E8C3 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		3471F8EA276DC4D60013E8C3 /* Debug */ = {
@@ -791,78 +641,6 @@
 			};
 			name = Release;
 		};
-		3471F8F0276DC4D60013E8C3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = co.kavinskyi.InvestmentTrackerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InvestmentTracker.app/InvestmentTracker";
-			};
-			name = Debug;
-		};
-		3471F8F1276DC4D60013E8C3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = co.kavinskyi.InvestmentTrackerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InvestmentTracker.app/InvestmentTracker";
-			};
-			name = Release;
-		};
-		3471F8F3276DC4D60013E8C3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = co.kavinskyi.InvestmentTrackerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = InvestmentTracker;
-			};
-			name = Debug;
-		};
-		3471F8F4276DC4D60013E8C3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = co.kavinskyi.InvestmentTrackerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = InvestmentTracker;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -880,24 +658,6 @@
 			buildConfigurations = (
 				3471F8ED276DC4D60013E8C3 /* Debug */,
 				3471F8EE276DC4D60013E8C3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3471F8EF276DC4D60013E8C3 /* Build configuration list for PBXNativeTarget "InvestmentTrackerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3471F8F0276DC4D60013E8C3 /* Debug */,
-				3471F8F1276DC4D60013E8C3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3471F8F2276DC4D60013E8C3 /* Build configuration list for PBXNativeTarget "InvestmentTrackerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3471F8F3276DC4D60013E8C3 /* Debug */,
-				3471F8F4276DC4D60013E8C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
